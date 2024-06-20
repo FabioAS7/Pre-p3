@@ -59,5 +59,9 @@ public class MetodosArq
 				System.out.println(a);
 			}
 		}
+		
+		fluxo.close();
+		leitor.close();
+		buffer.close();
 	}
 }
